@@ -6,7 +6,7 @@ public class Main16 {
       mahasiswa m1 = new  mahasiswa("Nusa", 2017,25, 3);
       mahasiswa m2 = new  mahasiswa("Rara", 2012, 19, 4);
       mahasiswa m3 = new  mahasiswa("Dompu", 2017,19, 3.5);
-      mahasiswa m4 = new  mahasiswa("Abdul", 2017,23, 32);
+      mahasiswa m4 = new  mahasiswa("Abdul", 2017,23, 2);
       mahasiswa m5 = new  mahasiswa("Ummi", 2019,21, 3.75);
 
       List.tambah(m1);
@@ -20,6 +20,14 @@ public class Main16 {
 
       System.out.println("Data Mahasiswa Setlah Shorting Desc Berdasarkan IPK");
       List.bubbleSort();
+      List.tampil();
+
+      System.out.println("Data Mahasiswa Setelah Sorting Asc Berdasarkan IPK");
+      List.selectionSort();
+      List.tampil();
+
+      System.out.println("Data Mahasiswa Setelah Sorting Asc Berdasarkan IPK");
+      List.insertionSort();
       List.tampil();
    }
 }
