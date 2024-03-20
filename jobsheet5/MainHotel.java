@@ -24,7 +24,7 @@ public class MainHotel {
         System.out.println("--------------------------------------------------");
 
         while(true){
-            System.out.println("               Daftar Hotel                   ");
+            System.out.println("                 Daftar Hotel                   ");
             System.out.println("----------------------------------------------");
             System.out.println("1) Berdasarkan Harga"+ " Termurah --> Tertinggi");
             System.out.println("2) Berdasarkan Bintang"+ " Tertinggi --> Termurah");
@@ -37,7 +37,7 @@ public class MainHotel {
                 htl.bubbleSort();
                 htl.tampilAll();
             }else if(pilihan==2){
-                System.out.println("Daftar Hotel"+" Berdasarkan Harga Tertinggi --> Termurah");
+                System.out.println("Daftar Hotel"+" Berdasarkan Bintang Tertinggi --> Terendah");
                 htl.selectionSort();
                 htl.tampilAll();
             }else{
