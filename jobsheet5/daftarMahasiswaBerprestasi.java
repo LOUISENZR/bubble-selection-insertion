@@ -20,11 +20,11 @@ public class daftarMahasiswaBerprestasi {
     }
     void bubbleSort(){
         for (int i=0; i<ListMhs.length-1; i++){
-            for(int j=1; j<ListMhs.length-1; j++){
-                if(ListMhs[j].ipk > ListMhs[j-i].ipk){
+            for(int j=1; j<ListMhs.length-i; j++){
+                if(ListMhs[j].ipk > ListMhs[j-1].ipk){
                     mahasiswa tmp = ListMhs[j];
-                    ListMhs[j] = ListMhs[j-i];
-                    ListMhs[j-i] = tmp;
+                    ListMhs[j] = ListMhs[j-1];
+                    ListMhs[j-1] = tmp;
                 }
             }
         }
